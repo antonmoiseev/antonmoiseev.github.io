@@ -19,8 +19,7 @@ I can tell you upfront that the upgrade process is trivial and includes the stan
 
 The sample application we use in this post is pretty minimal, you can find the source code here - [ng2-dart-beta-upgrade][repo] consists of one Dart file:
 
-
-~~~ dart
+{% highlight dart %}
 import 'package:angular2/angular2.dart';
 import 'package:angular2/bootstrap.dart';
 
@@ -29,11 +28,11 @@ import 'package:angular2/bootstrap.dart';
 class AppComponent {}
 
 main() => bootstrap(AppComponent);
-~~~
+{% endhighlight %}
 
 And the _pubspec.yaml_ (a Dart equivalent for _package.json_):
 
-~~~ yaml
+{% highlight yaml %}
 name: ng2_dart_upgrade
 
 dependencies:
@@ -43,7 +42,7 @@ dependencies:
 transformers:
 - angular2:
     entry_points: web/main.dart
-~~~
+{% endhighlight %}
 
 To upgrade the application from version `alpha.35` to `beta.0` you need to do two things:
 
