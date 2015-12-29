@@ -14,4 +14,13 @@ twitter_username: antonmoiseev
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 gems:
+  - jekyll-redirect-from
   - jemoji
+
+exclude: [
+  build,
+  serve,
+  Gemfile,
+  Gemfile.lock,
+  README.md
+]

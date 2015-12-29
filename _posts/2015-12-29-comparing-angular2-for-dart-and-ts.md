@@ -1,8 +1,10 @@
 ---
-layout    : post
-title     : "Comparing the Upgrade Process of Dart and TypeScript Apps to Angular 2 beta.0"
-date      : 2015-12-22
-categories: angular dart javascript typescript
+layout       : post
+title        : "Comparing the Upgrade Process of Dart and TypeScript Apps to Angular 2 beta.0"
+date         : 2015-12-22
+categories   : angular dart javascript typescript
+redirect_from:
+  - /2015/12/22/compare-ts-and-dart-angular2-beta0-upgrades/
 ---
 
 During the last 6 months I had a chance to work on JavaScript and TypeScript projects. Before this I was working on a Dart project for about a year. Since the April of 2015 my co-author and I have been writing [a book on Angular 2][book], which officially supports APIs for three different languages: JavaScript, TypeScript and Dart. I primarily use TypeScript but occasionally checkout the state of the Angular 2 for Dart.
