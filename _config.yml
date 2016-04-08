@@ -11,12 +11,16 @@ github_username: antonmoiseev
 twitter_username: antonmoiseev
 
 # Build settings
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 permalink: /:year/:month/:day/:title
 gems:
   - jekyll-redirect-from
   - jemoji
+
+# Markdown settings
+kramdown:
+  input: GFM
 
 exclude: [
   build,
